@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>暖阳主页</title>
+   <style>
+    body{
+        background-color: #1b1b1b;
+        background-image: linear-gradient(to bottom left, grey,black);
+    }
+      .header{
+         height: 100px;
+         width: 100%;
+         padding: 0%;
+         margin: 0%;
+         border-color: #cc7b35;
+         border-width: 3px;
+         border-style: dotted;
+         color: #1b1b1b;
+      }
+      .header h1{
+         text-align: center;
+         font-family: 华文彩云;
+         color: darkgoldenrod;
+      }
+      .content{
+         height: 450px;
+        
+      }
+      .content::after {
+         content: "";
+         clear: both;
+         display: table;
+}
+      ul{
+         float: left;
+         width: 447px;
+         height: 450px;
+         background-color: #8c9595;
+         list-style-type: none;
+         padding: 0px;
+         margin-top: 0px;
+      }
+      .img{
+         margin-left: 400px;
+         width: 64%;
+         height: 450px;
+         overflow: hidden;
+         margin:auto;
+      }
+      .img ul{
+            animation: Yui 3s cubic-bezier(0,1,0,1)1s infinite;
+            width: 400%;   
+        }
+        .img ul li{
+           float: left;
+        }
+        @keyframes Yui{
+            0% {
+                transform: translateX(0px);
+            }
+            33% {
+                transform: translateX(-800px);
+            }
+            66%{
+                transform: translateX(-1600px);
+            }
+            100%{
+                transform: translateX(0px);
+            }
+        }
+        link ul li{
+           width: 50px;
+        }
+        .char1{
+            float: left;
+            width: 18%;
+            text-align: center;
+            
+            font-family: 华文行楷;
+            color: rgb(17, 39, 102);
+        }
+        .char2{
+            float: right;
+            width: 18%;
+            text-align: center;
+            
+            font-family: 华文行楷;
+            color: rgb(17, 39, 102);
+        }
+      .left{
+         height: 225px;
+         background-image: url(/HTML/img/img5.jpg);
+      }
+      .right{
+         background-image: url(/HTML/img/img4.png);
+         height: 225px;
+      }
+      a:link{
+         color: rgb(252, 108, 6);
+         text-decoration: none;
+      }
+      a:visited{
+         color: rgb(241, 109, 14);
+         text-decoration: none;
+      }
+      a:hover{
+         color: yellow;
+      }
+      .nav{
+         height: 500px;
+         width: 100%;
+         padding: 0%;
+         margin: 0%;
+         border-color: #cc7b35;
+         border-width: 3px;
+         border-style: dotted;
+         color: #1b1b1b;
+      }
+      .nav h1{
+          height: 50px;
+          font-family: 华文彩云;
+          text-align: center;
+          color: #cc7b35;
+
+      }
+      .box1{
+         float: left;
+         width: 20%;
+         height:350px;
+         background-image: url(/HTML/img/p2.jpg);
+         margin-right: 6.6%;
+         border-style: none;
+         border-color: cornsilk;
+         border-width: 3px;
+         
+      }
+      .box2{
+         float: left;
+         width: 20%;
+         height: 350px;
+         background-image: url(/HTML/img/pic2.jpg);
+         margin-right: 6.6%;
+         }
+        .box3{
+            float: left;
+            width: 20%;
+            height: 350px;
+            background-image: url(/HTML/img/p5.jpg);
+            margin-right: 6.6%;
+        }
+        .box4{
+            float: left;
+            width: 20%;
+            height: 350px;
+            background-image: url(/HTML/img/p4.jpg);
+        }
+
+      
+      .footer{
+         height: 100px;
+         width: 100%;
+         padding: 0%;
+         margin: 0%;
+         
+         border-color: #cc7b35;
+         border-width: 3px;
+         border-top-style: solid;
+         color: white;
+         text-align: center;
+      }
+   </style>
+</head>
+<body>
+   <div class="header">
+      <h1>暖阳——Win Brave</h1>
+   </div>
+   <div class="content">
+      <div class="char1">
+          <h1>奇</h1>
+          <h1>迹</h1>
+          <h1>少</h1>
+          <h1>年</h1>
+          
+      </div>
+      <div class="char2">
+          <h1>不</h1>
+          <h1>只</h1>
+          <h1>奇</h1>
+          <h1>迹</h1>
+      </div>
+      <div class="img">
+         <ul>
+            <li><img src="/HTML/img/image14.png" alt=""></li>
+            <li><img src="/HTML/img/img11.png" alt=""></li>
+            <li><img src="/HTML/img/img12.png" alt=""></li>
+         </ul>
+      </div>
+   </div>
+   <div class="nav">
+      <h1>去哪了解他</h1>
+      <div class="box1">
+         <a href="/HTML/网页/fanli.html">个人信息</a>
+      </div>
+      <div class="box2">
+         <a href="/HTML/lighting time/index.html">高光时刻</a>
+      </div>
+      <div class="box3">
+          <a href="https://www.huya.com/393751">虎牙直播间</a>
+      </div>
+      <div class="box4">
+         <a href="https://space.bilibili.com/1231026434/">B站</a>
+      </div>
+   </div>
+   <div class="footer">
+      <p>鸣谢</p>
+      <p>孙佳佳 谢英琳 朱灿</p>
+      
+   </div>
+</body>
+</html>
